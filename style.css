@@ -1,0 +1,101 @@
+body{
+    font-family: "oswald",sans-serif;
+    margin: 0;
+    padding: 0;  
+    line-height: 2em;
+    font-size: 20px;
+}
+.my_flexibility{
+    display: flex; 
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+   
+}
+.header_sec{
+    background: linear-gradient(rgba(255, 255, 255, 0.8),rgba(8, 247, 107, 0.8)), url(img/top-banner.png) no-repeat;
+}
+h1{
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+h2{
+    color: #f00;
+    font-weight: 700;
+}
+p{
+   text-transform:capitalize;
+}
+
+.order_btn {
+	/* padding: 10px 20px; */
+	background: linear-gradient(tomato,orange);
+	color: #fff;
+	text-transform: capitalize;
+	text-decoration: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	text-align: center;
+	display: block;
+	width:120px;
+	height: 42px;
+    
+}
+.style_color{
+    color: rgb(255, 154, 4);
+}
+.my_flexibility .half_width{
+    width: 50%;
+    padding-left: 10%;
+}
+.my_flexibility .half_width img {
+	width: 75%;
+	height: auto;
+	margin-top: 10px;
+	display: block;
+	margin: 10px auto;
+}
+.middle_section{
+    background: linear-gradient(rgba(8, 247, 107, 0.8),rgba(255, 255, 255, 0.9)), url(img/dream-bg.png) no-repeat;
+    background-position: right;
+}
+.experience_section{
+padding: 40px;
+background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(8, 247, 107, 0.8)), url(img/exp-bg.png) no-repeat;
+background-position: left center;
+}
+.experience_section .half_width {
+    padding-left: 2%;
+    width: 50%;
+    background: #fff;
+    box-shadow:7px 4px 35px #000;
+    margin-left: 10%;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+}
+.experience_section .left_sec {
+	border-left: 7px solid   tomato;
+}
+.experience_section .right_sec {
+	border-left: 7px solid  blue;
+}
+.experience_section h1{
+	text-align: center;
+}
+
+footer{
+    width: 100%;
+    padding: 1px;
+    background:linear-gradient(rgba(8, 247, 107, 0.8),rgb(255, 154, 3)) ;
+    border-top: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+}
